@@ -1,0 +1,27 @@
+# Step-by-step installation for Python 3.11
+# Run these commands one by one in your terminal
+
+# 1. Create and activate virtual environment
+py -3.11 -m venv venv
+venv\Scripts\activate
+
+# 2. Upgrade pip first
+python -m pip install --upgrade pip
+
+# 3. Install core packages first
+pip install numpy==1.26.4 pandas==2.2.3 matplotlib==3.9.2
+
+# 4. Install PyTorch CPU version (optimized for Intel)
+pip install torch==2.4.1+cpu torchvision==0.19.1+cpu --index-url https://download.pytorch.org/whl/cpu
+
+# 5. Install TensorFlow CPU
+pip install tensorflow-cpu==2.16.2
+
+# 6. Install remaining packages
+pip install -r requirements.txt
+
+# 7. Install Jupyter and set up kernel
+python -m ipykernel install --user --name=healthcare_ai --display-name="Healthcare AI"
+
+# 8. Test installation
+python -c "import torch, pandas, numpy, sklearn, cv2; print('✅ All packages working!')"

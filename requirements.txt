@@ -1,0 +1,58 @@
+# Core ML and Data Science (Latest Stable)
+numpy==1.26.4
+pandas==2.2.3
+scikit-learn==1.5.2
+matplotlib==3.9.2
+seaborn==0.13.2
+
+# Deep Learning (CPU-optimized for Intel Iris Xe)
+torch==2.4.1+cpu
+torchvision==0.19.1+cpu
+tensorflow-cpu==2.16.2
+
+# Audio Processing
+librosa==0.10.2
+soundfile==0.12.1
+
+# Computer Vision
+opencv-python==4.10.0.84
+Pillow==10.4.0
+
+# NLP (Stable versions)
+transformers==4.44.2
+spacy==3.7.6
+
+# Web Framework
+streamlit==1.38.0
+flask==3.0.3
+fastapi==0.115.0
+uvicorn==0.31.0
+
+# Data Pipeline
+prefect==3.0.9
+
+# Explainable AI
+shap==0.46.0
+lime==0.2.0.1
+
+# ML Tracking
+mlflow==2.16.2
+
+# Data Download & APIs
+kaggle==1.6.17
+requests==2.32.3
+
+# Utilities
+python-dotenv==1.0.1
+tqdm==4.66.5
+jupyterlab==4.2.5
+ipykernel==6.29.5
+
+# Medical Data Processing
+pydicom==2.4.4
+nibabel==5.2.1
+
+# Additional useful packages
+plotly==5.24.1
+psutil==6.0.0
+python-dateutil==2.9.0

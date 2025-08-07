@@ -1,0 +1,27 @@
+# Essential packages first
+numpy>=1.21.0
+pandas>=1.5.0
+scikit-learn>=1.2.0
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# Deep Learning - Core
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Computer Vision
+opencv-python>=4.7.0
+Pillow>=7.1.0,<10
+
+# Web Framework
+streamlit>=1.25.0
+flask>=2.3.0
+
+# Data Download
+kaggle>=1.5.0
+requests>=2.28.0
+
+# Utilities
+python-dotenv>=1.0.0
+tqdm>=4.64.0
+jupyter>=1.0.0
